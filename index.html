@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="flex flex_jsc_spBtw flex_ai_c">
+
+      <div class="logoLinks flex flex_ai_c">
+        <img class="logo margin_R" src="images/logo.svg" alt="Snap" class="logo">
+        <div class="dropDown hide-for-mobile">
+
+          <p class="">
+            Features</p><img src="images/icon-arrow-down.svg" alt="">
+          <div class="dropDown_content">
+            <span><img src="images/icon-todo.svg" alt="" class="icon"><a> Todo List</a> </span>
+            <span><img src="images/icon-calendar.svg" alt="" class="icon"> <a>Calendar</a> </span>
+            <span><img src="images/icon-reminders.svg" alt="" class="icon"> <a>Reminders</a></span>
+            <span><img src="images/icon-planning.svg" alt="" class="icon"> <a>Planning</a> </span>
+
+          </div>
+        </div>
+        <div class="dropDown hide-for-mobile">
+          <p> Company</p><img src="images/icon-arrow-down.svg" alt="">
+          <div class="dropDown_content" style="left: 0; right:auto;">
+            <span class=""><a href="#"> History</a></span>
+            <span class=""><a>Our Team</a> </span>
+            <span class=""><a>Blog</a> </span>
+
+          </div>
+        </div>
+        <a class="hide-for-mobile" href="#"> Careers</a>
+        <a class="hide-for-mobile" href="#">About</a>
+      </div>
+
+      <span class="buttons flex flex_ai_c hide-for-mobile">
+        <a class="margin_R"> Login</a>
+        <span class="button ">
+          <p class="">Register</p>
+        </span>
+
+      </span>
+      <a class="menu hide-for-desktop">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </nav>
+  </header>
+  <div class="hide-for-desktop">
+    <div class="menu_content">
+
+      <div class="menu_holder hide-for-desktop">
+
+        <ul>
+
+          <p class="">
+            Features</p><img src="images/icon-arrow-down.svg" alt="">
+
+          <li><img src="images/icon-todo.svg" alt="" class="icon"><a> Todo List</a></li>
+          <li><img src="images/icon-calendar.svg" alt="" class="icon"> <a>Calendar</a></li>
+          <li><img src="images/icon-reminders.svg" alt="" class="icon"> <a>Reminders</a></li>
+          <li><img src="images/icon-planning.svg" alt="" class="icon"> <a>Planning</a></li>
+
+
+        </ul>
+
+        <ul>
+
+          <p class="">
+            Company</p><img src="images/icon-arrow-down.svg" alt="">
+
+          <li><a> History</a></li>
+          <li><a>Our Team</a> </li>
+          <li><a>Blog</a> </li>
+
+
+
+        </ul>
+
+        <a class="" href="#"> Careers</a>
+        <a class="" href="#">About</a>
+        
+        
+        <a class="center"> Login</a>
+        <span class="button ">
+          <p class="">Register</p>
+        </span>
+        
+        
+
+
+      </div>
+    </div>
+  </div>
+  <div class="flex flex_jsc_spBtw margin_T margin_horz noMargin_horz-for-mobile center_flex-for-mobile margin_B">
+    <div class="discTxt">
+      <h1 class="margin_T">Make remote work</h1>
+
+      <p class="margin_RR  margin_ver noMargin_horz-for-mobile">
+        Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.
+      </p>
+      <div class="button button_black  ">
+        <p>Learn more</p>
+      </div>
+      <div class="flex flex_jsc_spE margin_TT ">
+        <img class="clientsImg" src="images/client-databiz.svg" alt="databiz">
+        <img class="clientsImg" src="images/client-audiophile.svg" alt="audioPhile">
+        <img class="clientsImg" src="images/client-meet.svg" alt="meet">
+        <img class="clientsImg" src="images/client-maker.svg" alt="maker client">
+      </div>
+    </div>
+    <!-- <img class="heroImg" src="images/image-hero-desktop.png" alt="">-->
+    <div class="heroImg"></div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Saleh Al Saleh</a>.
+  </div>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

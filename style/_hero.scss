@@ -1,0 +1,28 @@
+.discTxt{
+    max-width: 31.25rem;
+    padding-right: 1.625rem;
+    order: 1;
+    @include breakpoint-down(large){
+     order: 2;
+     padding-left: 1.625rem ;
+    }
+}
+
+.heroImg{
+    width: 436px;
+    height: 584px;
+    order: 2;
+    background-image: url('../images/image-hero-desktop.png');
+    background-size: cover;
+    @include breakpoint-down(large){
+        width: 100vh;
+        height: 298px;
+    order: 1;  
+    background-image: url('../images/image-hero-mobile.png');
+    background-size: cover;
+    }
+}
+
+.clientsImg{
+    height: 23px;
+}
